@@ -58,8 +58,13 @@ jadwal_choice = st.sidebar.radio(
     ("Default", "Randomized")
 )
 
+if jadwal_choice == "Randomized":
+    max_slidebar = 500
+else:
+    max_slidebar = 800
+
 st.sidebar.header("Settings")
-dataset_size = st.sidebar.slider("Dataset Size", 1, 1000, 10)
+dataset_size = st.sidebar.slider("Dataset Size", 1, max_slidebar, 10)
 
 computer_science_courses = [
     "AGAMA ISLAM", "ALGORITMA DAN PEMROGRAMAN 1", "TEORI BAHASA DAN AUTOMATA", 
@@ -147,7 +152,7 @@ ax.plot(df['Jumlah Aktivitas'], df['Waktu Algoritma Rekursif'], 'o', label="Algo
 ax.plot(df['Jumlah Aktivitas'], df['Waktu Algoritma Iteratif'], 'o', label="Algoritma Iteratif")
 ax.set_xlabel('Ukuran List Aktivitas')
 ax.set_ylabel('Waktu Eksekusi (Detik)')
-ax.set_ylim(0, 0.03)
+ax.set_ylim(0)
 ax.set_xlim(0)
 ax.legend()
 ax.grid(True, linestyle="--", linewidth=0.5)
