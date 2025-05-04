@@ -16,12 +16,11 @@ Proyek ini membandingkan dua pendekatan algoritma—**rekursif** dan **iteratif*
 
 ## 📈 Hasil & Analisis Eksperimen
 
-* Kompleksitas waktu untuk kedua algoritma secara umum adalah:
-  🧮 **O(n log n)** (dengan asumsi *n* adalah jumlah aktivitas dan *log n* dari proses sorting).
-* Dari pengamatan pada **Fig. 8**, terlihat bahwa:
+Hasil perbandingan kompleksitas Algoritma Iteratif dan Rekursif
+![Perbandingan Kompleksitas](Snippet_Figure-Kompleksitas/Rekursif_vs_Iteratif.png)
 
-  * Keduanya memiliki performa eksekusi yang hampir serupa untuk input kecil hingga menengah.
-  * Namun, seiring bertambahnya jumlah input, **algoritma iteratif menunjukkan efisiensi yang lebih baik** dibandingkan algoritma rekursif.
+Hasil perbandingan kompleksitas Algoritma Iteratif Kuadratik dan Linear
+![Perbandingan Iteratif Kuadratik dan Linear](Snippet_Figure-Kompleksitas/Iteratif_Kuadratik-Linear.png)
 
 ---
 
@@ -41,6 +40,6 @@ Proyek ini membandingkan dua pendekatan algoritma—**rekursif** dan **iteratif*
 
 ## 📊 Kesimpulan
 
-✅ **Iteratif lebih unggul** dalam hal efisiensi waktu saat skala input meningkat.
-✅ **Keduanya setara** dalam kompleksitas teoritis, namun **praktik menunjukkan keunggulan iteratif** dalam efisiensi eksekusi.
+✅ **Iteratif lebih unggul** dalam hal efisiensi waktu saat skala input meningkat.\
+✅ **Keduanya setara** dalam kompleksitas teoritis, namun **praktik menunjukkan keunggulan iteratif** dalam efisiensi eksekusi.\
 ✅ Analisis kompleksitas mendukung hasil eksperimen: iteratif lebih stabil dan scalable.
