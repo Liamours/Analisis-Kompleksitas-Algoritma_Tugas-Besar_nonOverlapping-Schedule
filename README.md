@@ -43,3 +43,12 @@ Hasil perbandingan kompleksitas Algoritma Iteratif Kuadratik dan Linear
 ✅ **Iteratif lebih unggul** dalam hal efisiensi waktu saat skala input meningkat.\
 ✅ **Keduanya setara** dalam kompleksitas teoritis, namun **praktik menunjukkan keunggulan iteratif** dalam efisiensi eksekusi.\
 ✅ Analisis kompleksitas mendukung hasil eksperimen: iteratif lebih stabil dan scalable.
+
+---
+
+## 📈 Poster
+
+Poster Rifqi
+[Poster Rifqi](Poster/Poster_Rifqi.pdf)
+
+Poster Fathan
