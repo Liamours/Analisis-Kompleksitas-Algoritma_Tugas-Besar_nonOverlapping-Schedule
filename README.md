@@ -29,73 +29,13 @@ Proyek ini membandingkan dua pendekatan algoritma—**rekursif** dan **iteratif*
 
 ### 🔁 Algoritma Rekursif: `nonOverlappingSchedule_Rekursif`
 
-#### Best Case
 
-* Kondisi:
-
-  * Semua aktivitas terjadi di hari yang sama (`AktL.Hari == AktJ.Hari`) dan **overlap**.
-* Kompleksitas:
-
-  $$
-  T_{\text{best}}(nL) = nL \in \Theta(nL)
-  $$
-
-  Berkategori **linier**.
-
-#### Worst Case
-
-* Kondisi:
-
-  * Aktivitas saling tidak overlap tetapi tetap dibandingkan semua.
-* Kompleksitas:
-
-  $$
-  T_{\text{worst}}(nL) = nL \cdot nJ \in \Theta(nL \cdot nJ)
-  $$
-
-  Berkategori **kuadratik**.
-
-#### Average Case
-
-* Kompleksitas:
-
-  $$
-  T_{\text{avg}}(n) = \frac{nL \cdot nJ + 1}{2} \in \Theta(nL \cdot nJ)
-  $$
 
 ---
 
 ### 🔄 Algoritma Iteratif: `nonOverlappingSchedule_Iteratif`
 
-#### Best Case
 
-* Kondisi:
-
-  * Semua aktivitas di hari yang sama dan tidak overlap.
-* Kompleksitas:
-
-  $$
-  T_{\text{best}}(n) = nL \in \Theta(nL)
-  $$
-
-#### Worst Case
-
-* Kondisi:
-
-  * Semua aktivitas perlu dibandingkan dengan semua yang lain.
-* Kompleksitas:
-
-  $$
-  T_{\text{worst}}(n) = nL \cdot nJ \in \Theta(nL \cdot nJ)
-  $$
-
-#### Average Case
-
-* Kompleksitas:
-
-  $$
-  T_{\text{avg}}(n) = \frac{nL \cdot nJ + 1}{2} \in \Theta(nL \cdot nJ)
-  $$
 
 ---
 
