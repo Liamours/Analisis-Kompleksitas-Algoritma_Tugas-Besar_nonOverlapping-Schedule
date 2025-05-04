@@ -1,4 +1,4 @@
-# 🗓️ nonOverlapping\_Schedul
+# 🗓️ nonOverlapping\_Schedule
 
 ## 📚 Tugas Besar Analisis Kompleksitas Algoritma
 
