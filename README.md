@@ -51,4 +51,5 @@ Hasil perbandingan kompleksitas Algoritma Iteratif Kuadratik dan Linear
 Poster Rifqi
 [Poster Rifqi](Poster/Poster_Rifqi.pdf)
 
+Poster Fathan
 [Poster Fathan](Poster/Poster_Fathan.pdf)
